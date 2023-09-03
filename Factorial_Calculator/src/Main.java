@@ -5,15 +5,15 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number: ");
 		int n = sc.nextInt();
-		calculateSum(n);
+		calculateFactorial(n);
 	}
 	
-	public static void calculateSum(int n)
+	public static void calculateFactorial(int n)
 
 	{
-		int count = 0;
+		int count = 1;
 		for(int i = 1; i<= n; i++) {
-			count= count + i;
+			count= count * i;
 		}
 		System.out.println(count);
 

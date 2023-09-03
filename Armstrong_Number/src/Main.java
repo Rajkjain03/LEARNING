@@ -5,18 +5,14 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number: ");
 		int n = sc.nextInt();
-		calculateSum(n);
-	}
-	
-	public static void calculateSum(int n)
-
-	{
-		int count = 0;
-		for(int i = 1; i<= n; i++) {
-			count= count + i;
+		Check c = new Check();
+		int dig = c.dig(n);
+		int res = c.armstrong(n,dig);
+		if(res == n) {
+			System.out.println("Armstrong number");
+		}else {
+			System.out.println("Not Armstrong number");
 		}
-		System.out.println(count);
-
 	}
 
 }

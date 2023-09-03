@@ -1,0 +1,16 @@
+check whether given number is "Armstrong number" or not.
+
+Armstrong Number Examples
+0, 1, 153, 370, 371 and 407 are an Armstrong number list or all examples of Armstrong numbers. Let us check why?
+
+ For 0, the operation is 0^1=0
+
+ For 1, the operation is 1^1=1
+
+ For 153, the operation is 1^3 5^3 3^3=153
+
+ For 370 the operation is 3^3 7^3 0^3=370
+
+ For 371 the operation is 3^3 7^3 1^3=371
+
+ For 407 the operation is 4^3 0^3 7^3=407
